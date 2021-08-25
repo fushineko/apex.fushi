@@ -1,0 +1,212 @@
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: rgb(0, 0, 0);/* フォントの色 */
+  font-size: 100px;/* フォントの大きさ */
+  font-family: 'Palette Mosaic', cursive;
+/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  padding-top: 400px;/* 上がわの余白 */
+  margin-top: auto;
+}
+
+h3 {
+  float:right;
+  margin-top:0px
+}
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  /* 背景画像 */
+  height: 550px;/*高さ */
+  background-position: top; 
+  background-repeat: no-repeat;
+  background-color: #0000001a;
+  margin-bottom: 0px;
+  opacity: 0.8;
+}
+
+.header {
+  background-position: top;
+  background-image: url(https://cdn.discordapp.com/attachments/705940498153472020/877762430762106941/apex-featured-image-16x9.jpg.adapt.crop16x9.1023w.jpg);
+  background-repeat: no-repeat;
+  padding-top: 0px;
+}
+/* ナビゲーションの箱 */
+nav {
+  background-color: #ff0000;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: hsl(224, 89%, 43%);
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.about {
+  color: #000000;
+  padding: 30px;
+  background-color: #ffffff11;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.box1 {
+  font-size: 20px;
+  /* background-color: #00000048; */
+  padding: 20px;
+  border-radius: 30px;
+  border: 5px solid #0000003b;
+  height: 1100px;
+  background-color: rgb(255, 242, 223);
+}
+
+.arasuzi {
+  margin-bottom: 0px;
+}
+
+/* 画像 */
+.about img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+/* ===== 値段表のスタイル ===== */
+/* セクション */
+.chara {
+  padding: 30px;
+  background-color: #ffffff8f;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* h2見出し */
+.chara h2 {
+  color: #000000;
+  border-color: #000000;
+}
+
+/* 表 */
+.chara table {
+  background-color: #ffffff8f;
+  border-collapse: collapse;/* 表の隙間（すきま） */
+  width: 100%;
+}
+
+/* 表のセル */
+.chara td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+/* 表の見出しセル */
+.chara th {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #ff0000de;
+  text-align: left;
+}
+
+.osusume{
+  text-align: center;
+}
+.info {
+  text-align: center;
+  padding-top: 0px;
+}
+.blood {
+  width: 130px;
+  background-position: center;
+}
+
+/* ===== アクセス情報のスタイル ===== */
+/* セクション */
+.access {
+  padding: 30px;
+  background-color: #ffffff8f;
+  height: 400px;
+  color: #000000;
+}
+
+/* h3見出し */
+.access h3 {
+  font-size: 40px;
+  font-family: lobster;
+  margin-top: 0px;
+  float: left;
+}
+
+/* リスト */
+.access ul {
+  list-style-type: none;/* リストのマーカー */
+  padding-left: 0px;
+}
+
+/* 箱 */
+.access div {
+  float: left;
+  width: 50%;
+}
+
+.twitter img{
+width: 50px;
+border-radius: 50px;
+}
+
+.facebook img{
+  width: 50px;
+}
+
+.icon img{
+  width: 300px;
+}
+/* フッター */
+footer {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.footernav {
+  background-color:rgba(0, 0, 0, 0.479)
+}
